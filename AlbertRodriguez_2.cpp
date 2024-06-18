@@ -13,7 +13,7 @@ int leerEnteroEntreLimites(int limiteInferior, int limiteSuperior) {
 
 int main() {
     int min = 1;
-    int max = 100;
+    int max = 50;
 
     int numeroValido = leerEnteroEntreLimites(min, max);
 
