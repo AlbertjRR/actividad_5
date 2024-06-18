@@ -2,10 +2,10 @@
 using namespace std;
 
 int valorAbsoluto(int numero) {
-    if (numero < 0) {
-        return -numero;
+    if (valor < 0) {
+        return -valor;
     } else {
-        return numero;
+        return valor;
     }
 }
 
