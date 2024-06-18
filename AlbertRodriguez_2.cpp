@@ -2,22 +2,22 @@
 using namespace std;
 
 int leerEnteroEntreLimites(int limiteInferior, int limiteSuperior) {
-    int numero;
+    int num;
     do {
         cout << "Introduce un numero entre " << limiteInferior << " y " << limiteSuperior << ": ";
-        cin >> numero;
-    } while (numero < limiteInferior || numero > limiteSuperior);
+        cin >> num;
+    } while (num < limiteInferior || num > limiteSuperior);
 
-    return numero;
+    return num;
 }
 
 int main() {
     int min = 1;
     int max = 50;
 
-    int numeroValido = leerEnteroEntreLimites(min, max);
+    int numValido = leerEnteroEntreLimites(min, max);
 
-    cout << "El numero valido introducido es: " << numeroValido << endl;
+    cout << "El num valido introducido es: " << numValido << endl;
 
     return 0;
 }
