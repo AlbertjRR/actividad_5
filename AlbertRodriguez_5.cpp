@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-void polarACartesiano(double radio, double angulo, double &x, double &y) {
+void Cartesiano(double radio, double angulo, double &x, double &y) {
     x = radio * cos(angulo);
     y = radio * sin(angulo);
 }
@@ -12,7 +12,7 @@ int main() {
     double anguloEnRadianes = M_PI / 3.0; 
     double x, y;
 
-    polarACartesiano(radio, anguloEnRadianes, x, y);
+    Cartesiano(radio, anguloEnRadianes, x, y);
 
     cout << "Las coordenadas cartesianas son: (" << x << ", " << y << ")" << endl;
 
