@@ -27,7 +27,7 @@ void divisionEnteraResto(int dividendo, int divisor, int &cociente, int &resto) 
 }
 
 int main() {
-    int num1 = 20;
+    int numee1 = 20;
     int num2 = 3;
     int cociente, resto;
 
