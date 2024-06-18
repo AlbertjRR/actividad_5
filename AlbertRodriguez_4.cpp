@@ -27,11 +27,11 @@ void divisionEnteraResto(int dividendo, int divisor, int &cociente, int &resto) 
 }
 
 int main() {
-    int numee1 = 20;
-    int num2 = 3;
+    int numero1 = 23;
+    int numero2 = 4;
     int cociente, resto;
 
-    divisionEnteraResto(num1, num2, cociente, resto);
+    divisionEnteraResto(numero1, numero2, cociente, resto);
 
     cout << "Division entera: " << cociente << ", Resto: " << resto << endl;
 
